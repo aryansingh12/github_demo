@@ -13,7 +13,7 @@ import retrofit2.http.Path;
 public interface UserService {
 
         @GET("users/{name}")// this is after the base url
-        Call<ArrayList<User>> getUsers(@Path("name") String name);
+        Call<User> getUsers(@Path("name") String name);
 
 //    @GET("posts/{id}/comments")// this is after the base url
 //    Call<ArrayList<Comment>> getComments(@Path("id") int postId);

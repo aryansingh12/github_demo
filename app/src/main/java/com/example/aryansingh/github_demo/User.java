@@ -13,6 +13,8 @@ class User {
     private String followers;
     private String following;
 
+    public User() {
+    }
 
     public String getLogin() {
         return login;
